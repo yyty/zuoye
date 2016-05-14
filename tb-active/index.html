@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>活动页面</title>
+	<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+	<script type="text/javascript" src="js/flexible.js"></script>
+	<link rel="stylesheet" href="css/index.css">
+	
+</head>
+<body>
+	<!-- 页面容器 -->
+	<div class="box">
+		<div class="top">
+				<div class="top-up">
+					<span>已开宝箱获得</span>
+					<img src="img/laba.png" alt="喇叭">
+					<span>13:34</span>
+					<span>从余额宝充值中得到</span>
+					<span>&yen; 20</span>
+					<a href="#" id="denglu">登录</a>
+				</div>
+				<div class="top-down">
+					<ul class="ul1">
+						<li>
+							<img src="img/qianbao.png" alt="钱包">
+							<span class="span1212">1212红包</span>
+							<span class="rmb">&yen;</span>
+							<span class="span999">999</span>
+						</li>
+						<li>
+							<img src="img/wifi.png" alt="wifi图标">
+							<span class="spanLL">获赠流量</span>
+							<span class="span999 span9992">999</span>
+							<span class="mb">MB</span>
+						</li>
+					</ul>
+					<ul class="ul2">
+						<li>
+							<img src="img/ssq.png" alt="双色球">
+							<span class="zcp">中彩票</span>
+						</li>
+						<li>未获得(点我)</li>
+						<div id="loginBox"></div>	
+						<div id="login"><span>登录成功</span>
+							<span id="close">✕</span>
+						</div>					
+					</ul>
+				</div>			
+		</div>
+		<!-- 中部 -->
+		<div class="middle">
+			<div class="swiper-container con0">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide sld">
+			        	<div class="sld-up">
+			        		<span>未开宝箱<strong>12</strong>个</span>
+			        	</div>
+			        	<div class="sld-down">
+			        		<img src="img/img1.png" alt="宝箱1" class="treasure">
+			        		<img src="img/99.png" alt="99" class="img991">
+			        		<img src="img/img2.png" alt="宝箱2" class="treasure">
+			        		<img src="img/99.png" alt="99" class="img992">
+			        		<img src="img/img3.png" alt="宝箱3" class="treasure">
+			        		<img src="img/99.png" alt="99" class="img993">
+			        	</div>
+			        </div>
+			        <div class="swiper-slide sld">
+			        	<div class="sld-up">
+			        		<span>未开宝箱<strong>75</strong>个</span>
+			        	</div>
+			        	<div class="sld-down">
+			        		<img src="img/img1.png" alt="宝箱1" class="t2">
+			        		<img src="img/99.png" alt="99" class="img991">
+			        		<img src="img/img2.png" alt="宝箱2" class="t2">
+			        		<img src="img/99.png" alt="99" class="img992">
+			        		<img src="img/img3.png" alt="宝箱3" class="t2">
+			        		<img src="img/99.png" alt="99" class="img993">
+			        	</div>
+			        </div>
+			        <div class="swiper-slide sld">
+			        	<div class="sld-up">
+			        		<span>未开宝箱<strong>28</strong>个</span>
+			        	</div>
+			        	<div class="sld-down">
+			        		<img src="img/img1.png" alt="宝箱1" class="t3">
+			        		<img src="img/99.png" alt="99" class="img991">
+			        		<img src="img/img2.png" alt="宝箱2" class="t3">
+			        		<img src="img/99.png" alt="99" class="img992">
+			        		<img src="img/img3.png" alt="宝箱3" class="t3">
+			        		<img src="img/99.png" alt="99" class="img993">
+			        	</div>
+			        </div>
+			    </div>
+			    <div class="p0"></div>
+			    <div class="swiper-button-prev prev"></div>
+			    <div class="swiper-button-next next"></div>
+			</div>
+		</div>
+		<!-- 中部结束 -->
+		<!-- 底部 -->
+		<div class="bottom">
+			<div class="bottom-up">
+				<img src="img/img0.png" alt="宝箱0" class="bx0">
+				<img src="img/more.png" alt="获得更多宝箱" class="getMore">
+			</div>
+			<div class="bottom-down">
+				<div class="item item1"><span class="span1">余额宝充值送宝箱</span><img src="img/png1.png" alt="宝箱a"></div>
+				<div class="item item2"><span>分享宝贝送宝箱</span><img src="img/png2.png" alt="宝箱b"></div>
+				<div class="item item3"><span>愿望清单送宝箱</span><img src="img/png3.png" alt="宝箱c"></div>
+			</div>
+		</div>
+		<!-- 底部结束 -->
+	</div>
+	<!-- 页面容器结束 -->
+</body>
+<script type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+	  var mySwiper = new Swiper ('.con0', {
+    direction: 'horizontal',
+    autoplay : 4000,
+    loop: true,
+    paginationClickable: true,
+    pagination: '.p0',
+    nextButton: '.next',
+    prevButton: '.prev',
+    autoplayDisableOnInteraction : false,
+
+
+  }) 
+</script>
+
+</html>
